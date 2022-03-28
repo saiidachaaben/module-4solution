@@ -1,9 +1,9 @@
-const helloSpeaker = {
+const speakerhello = {
 	speakWord: 'Hello',	
 };
 
 (function () {
-	helloSpeaker.speak = function (userName) {
-		return (helloSpeaker.speakWord + " " + userName);
+	speakerhello.speak = function (userName) {
+		return (speakerhello.speakWord + " " + userName);
 	}
 }());
