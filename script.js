@@ -4,11 +4,11 @@
 		var name = names[i];
 		var firstLetter = name.charAt(0).toLowerCase();
 		if (firstLetter === 'j') {
-			console.log(byeSpeaker.speak(name));
-			document.write(byeSpeaker.speak(name) + '<br>');
+			console.log(speakergoodbye.speak(name));
+			document.write(speakergoodbye.speak(name) + '<br>');
 		} else {
-			console.log(helloSpeaker.speak(name));
-			document.write(helloSpeaker.speak(name + '<br>'));
+			console.log(speakerhello.speak(name));
+			document.write(speakerhello.speak(name + '<br>'));
 		}
 	}
 })();
